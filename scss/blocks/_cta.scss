@@ -1,0 +1,49 @@
+.cta {
+    background-color: $black;
+    padding: 100px 0;
+}
+
+.cta__wrapper {
+    display: flex;
+}
+
+.cta__title {
+    margin-bottom: 22px;
+
+    color: $blue;
+    width: 555px;
+    max-height: 136px;
+    overflow: hidden;
+}
+
+.cta__left {
+    max-height: 328px;
+    padding-top: 28px;
+    padding-bottom: 26px;
+    margin-right: 125px;
+}
+
+.cta__text {
+    width: 555px;
+
+    color: $white;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 136.364% */
+    letter-spacing: 1.7px;
+
+    margin-bottom: 38px;
+
+    max-height: 90px;
+    overflow: hidden;
+}
+
+.cta__buttons {
+    display: flex;
+}
+
+.cta__buttons-left {
+    margin-right: 16px;
+}

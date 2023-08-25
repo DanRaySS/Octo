@@ -1,0 +1,41 @@
+// font-family: "Noto Sans", sans-serif;
+
+
+//Fonts
+$font-main: 'Nota Sans', sans-serif;
+
+//Colors
+$white: #fff;
+$blue: #00B6DD;
+$black: #010101;
+$dark-blue: #081580;
+$light-blue: #D3D8E4;
+$pink: #FF779A;
+
+
+//Media
+$md: 1199px;
+$sm: 991px;
+$ssm: 767px;
+$xs: 575px;
+
+
+.bgc-dark-blue {
+    background-color: $dark-blue;
+}
+
+.bgc-blue {
+    background-color: $blue;
+}
+
+.color-dark-blue {
+    color: $dark-blue;
+}
+
+.color-blue {
+    color: $blue;
+}
+
+.outline-2px-blue {
+    border: 2px solid $blue;
+}

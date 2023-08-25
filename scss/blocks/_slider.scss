@@ -1,0 +1,32 @@
+.slider {
+  padding: 100px 0;
+  background-color: $white;
+}
+
+.slider__wrapper {
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+
+  margin-bottom: 40px;
+}
+
+.slider__arrows {
+  display: flex;
+
+  &--left {
+    margin-right: 25px;
+  }
+}
+
+.slide .category-development {
+  display: none;
+}
+
+.slide .category-marketing-md {
+  display: block;
+}
+
+.slide .category__text-md {
+  display: block;
+}

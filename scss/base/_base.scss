@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: $font-main;
+    background-color: $white;
+    color: $black;
+    font-size: 13px;
+}
+
+a {
+    color: $black;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.hidden {
+    display: none;
+}
+
+.title-1 {
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    /* 109.677% */
+
+
+}
+
+.title-2 {
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    /* 109.677% */
+    letter-spacing: 2.7px;
+}
+
+.title-3 {
+    color: $black;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 136.364% */
+    letter-spacing: 1.8px;
+
+    &-md {
+        color: $black;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 136.364% */
+        letter-spacing: 1.8px;
+
+
+        display: none;
+    }
+
+    &-ssm {
+        color: $black;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 144.444% */
+        letter-spacing: 1.6px;
+
+        display: none;
+    }
+
+    &-xs {
+        color: $black;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 144.444% */
+        letter-spacing: 1.5px;
+
+        display: none;
+    }
+}
+
+.text {
+    color: $black;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: 1.1px;
+
+    &-md {
+        color: $black;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+        letter-spacing: 1.1px;
+
+
+        display: none;
+    }
+
+    &-ssm {
+        color: $black;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        /* 157.143% */
+        letter-spacing: 0.9px;
+
+        display: none;
+    }
+}
+
+.btn {
+    width: 160px;
+    height: 40px;
+
+    color: $white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 153.846% */
+    letter-spacing: 1.1px;
+}
