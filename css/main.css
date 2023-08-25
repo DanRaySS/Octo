@@ -560,7 +560,7 @@ a {
     /* 140% */
   }
   .wrapper {
-    background: url(./../img/wrapper/wrapper-bg-992.png);
+    background: url(../img/wrapper/wrapper-bg-992.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 340px;
