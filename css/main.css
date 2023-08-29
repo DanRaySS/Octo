@@ -251,6 +251,7 @@ a {
   line-height: 20px;
   /* 153.846% */
   letter-spacing: 1.1px;
+  overflow: hidden;
 }
 
 .wrapper {
